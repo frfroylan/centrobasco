@@ -1,0 +1,3 @@
+Image of bridge picture: http://www.centrobasco.net/images/ispoure.jpg
+
+-Made the navbar fixed but it is fucking up my hover effect on my menu items. 

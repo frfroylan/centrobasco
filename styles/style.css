@@ -1,0 +1,172 @@
+/** Set up **/
+*{
+	margin: 0;
+	padding:0;
+}
+
+body {
+	background-color: #FFCBCB;
+	font-family: 'Open sans', arial;
+}
+/** Set up end **/
+
+/** Nav **/
+header > h1{
+	display: inline-block;
+}
+
+header {
+	margin: 0;
+	padding: 0;
+}
+nav {
+	height: 70px;
+	background-color: #D64541;
+	width: 100%;
+	margin-top: -10px;
+	z-index: 10;
+}
+
+nav > h1 {
+	float: left;
+	background-color: transparent;
+	width: 300px;
+	font-family: 'Dancing Script', cursive;
+	margin-left: 50px;
+	font-size: 45px;
+	line-height: 30px;
+	color: white;
+}
+
+nav h1 a {
+	text-decoration: none;
+	color: white;
+}
+
+nav h1 a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+ul.list, ul.sublist {
+  
+  list-style-type: none;
+  text-align: center;  
+}
+
+ul.sublist{
+  display:none;
+  position:absolute;
+  top:70px;
+  margin: 0 auto;
+  z-index: 10;
+}
+
+.list-items{
+  width: 100px;
+  float: left;
+  position: relative;
+}
+
+.list-items a {
+  text-decoration: none;
+  display: block;
+  width: 100px;
+  height: 70px;
+  line-height: 65px;
+  font-size: 18px;
+  background-color: transparent;
+  color: white;
+  transition: background-color 1s;
+  -webkit-transition: background-color 1s;
+}
+
+ul.sublist a {
+  background-color: #D64541;
+  color: white;
+  transition: color 2s;
+  -webkit-transition: color 2s;
+
+  transition: background-color 1s;
+  -webkit-transition: background-color 1s;
+}
+
+ul.list li:hover > a {
+  background-color: white;
+  color: black;
+}
+
+ul.list li:hover .sublist{
+  display:block;
+}
+/** Nav end **/
+
+
+/*** Main container **/
+
+.container{
+	font-size: 18px;
+}
+
+.title {
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+}
+.title h1 {
+	font-size: 72px;
+}
+
+.about h2 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 48px;
+}
+
+.cont h3 {
+	font-size: 28px;
+	text-align: center;
+}
+
+.cont a {
+	text-decoration: none;
+	color:#D64541;
+}
+
+.cont a:hover {
+
+	color: black;
+	font-style: italic;
+}
+/** End of container**/
+
+
+
+/** Footer **/
+footer {
+	
+	height: 50px;
+	width: 100%;
+	background-color: #D64541;
+	color: #333;
+}
+ 
+footer a {
+
+	margin-left: 40px;
+	line-height: 50px;
+	color: #333;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+footer a:hover {
+
+	color: white;
+}
+
+footer h3 {
+	display: inline-block;
+	margin-left: 37%;
+	margin-bottom: 0;
+}
+
+/** End of footer **/
