@@ -108,6 +108,7 @@ ul.list li:hover .sublist{
 	font-size: 18px;
 }
 
+/** TITLE **/
 .title {
 	font-family: 'Dancing Script', cursive;
 	text-align: center;
@@ -115,12 +116,17 @@ ul.list li:hover .sublist{
 .title h1 {
 	font-size: 72px;
 }
+/** END of title **/
 
+/** About section **/
 .about h2 {
 	font-family: 'Dancing Script', cursive;
 	font-size: 48px;
 }
 
+/** END OF ABOUT **/
+
+/** Basque people links **/
 .cont h3 {
 	font-size: 28px;
 	text-align: center;
@@ -136,14 +142,65 @@ ul.list li:hover .sublist{
 	color: black;
 	font-style: italic;
 }
+/** END of Basque links **/
+
+/** Gallery **/
+.gal h1 {
+
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	font-size: 48px;
+}
+
+img {
+
+	margin: 0 auto;
+}
+/**END of Gallery**/
+
+/** Map **/
+.loc h1 {
+
+	font-size: 48px;
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+}
+
+iframe {
+	display: block;
+	margin: 0 auto;
+}
+/** END OF MAP**/
+
 /** End of container**/
 
+
+/*** Menu **/
+
+.col-md-6 {
+
+	background-color: #333;
+	color: white;
+	height: 800px;
+	text-align: center;
+
+}
+
+.col-md-6 p{
+	margin: 0;
+	padding: 0;
+}
+
+.col-md-6 h2 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 36px;
+}
 
 
 /** Footer **/
 footer {
 	
-	height: 50px;
+	height: 80px;
 	width: 100%;
 	background-color: #D64541;
 	color: #333;
